@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear usuario</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+
+        <div class="form-group">
+            <h1>Crear Usuario</h1>
+        </div>
+
+        <form action="index.html" method="POST">
+
+            <div class="form-group">
+                <label for="1">Usuario: </label>
+                <input type="text" name="user" id="1">
+            </div>
+
+            <div class="form-group">
+                <label for="2">Contraseña: </label>
+                <input type="password" name="password" id="2">
+            </div>
+
+            <div class="form-group">
+                Estado Civil: 
+                <select name="estadocivl" id="" class="form-control">
+                <option value="1">Casado</option>
+                <option value="2">Soltero</option>
+                <option value="3">Viudo</option>
+                <option value="4">Nose</option>
+                </select>
+            </div>
+
+            <button class="btn btn-primary">Crear</button>
+        </form>
+
+    </div>
+</body>
+</html>
